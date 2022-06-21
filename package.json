@@ -19,7 +19,6 @@
     "react-simple-show-more": "^1.0.2",
     "react-toastify": "^8.1.0",
     "slugify": "^1.6.4",
-    "vanilla-back-to-top": "^7.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -47,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "vanilla-back-to-top": "^7.2.1"
   }
 }

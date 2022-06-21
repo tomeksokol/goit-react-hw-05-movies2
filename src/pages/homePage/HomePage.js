@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { getTrending } from "../../utils/apiCalls";
 import { STATUS } from "../../utils/constans";
 import LoaderComponent from "../../components/LoaderComponent/LoaderComponent";
-import ErrorView from "../../components/ErrorComponent/ErrorView.";
+import ErrorView from "../../components/ErrorComponent/ErrorView";
 // import slugify from "slugify";
 import { Pagination } from "@material-ui/lab";
 import useStyles from "../../utils/paginationStyles";

@@ -5,7 +5,7 @@ import useStyles from "../../utils/paginationStyles";
 import { searchMovies } from '../../utils/apiCalls';
 import { STATUS } from "../../utils/constans";
 import LoaderComponent from "../../components/LoaderComponent/LoaderComponent";
-import ErrorView from "../../components/ErrorComponent/ErrorView.";
+import ErrorView from "../../components/ErrorComponent/ErrorView";
 import SearchBar from '../../components/SearchBar/SearchBar';
 import moviePlaceholder from "../../images/moviePlaceholder.jpg";
 import styles from './MoviesPage.module.css';

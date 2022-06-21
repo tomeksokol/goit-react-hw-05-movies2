@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import ErrorView from "../../components/ErrorComponent/ErrorView.";
+import ErrorView from "../../components/ErrorComponent/ErrorView";
 import LoaderComponent from "../../components/LoaderComponent/LoaderComponent";
 import MovieDetails from "../../components/MovieDetails/MovieDetails";
 import { getMovieDetails } from "../../utils/apiCalls";

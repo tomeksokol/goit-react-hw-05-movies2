@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  padding: 0 40px;
+  background-color: #34495e;
+  box-shadow: var(--boxShadow);
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  padding: 12px;
+  font-weight: 800;
+  color: #fff;
+  font-size: 18px;
+}
+
+.activeLink {
+  display: inline-block;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fa7584;
+}

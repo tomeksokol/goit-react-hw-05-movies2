@@ -1,0 +1,147 @@
+.main {
+  padding: 40px 20px;
+  text-align: left;
+}
+
+
+.wrapper {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+  }
+}
+
+.poster, .posterPlaceholder {
+  max-width: 320px;
+  height: 500px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .poster, .posterPlaceholder {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+.description {
+  text-align: left;
+}
+
+.movieTitle, .movieSubTitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1667;
+  letter-spacing: 0.03em;
+  text-shadow: var(--textShadow);
+  text-align: center;
+}
+
+.movieSubTitle {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .movieTitle, .movieSubTitle {
+    text-align: left;
+  }
+}
+
+.info {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #c3beba;
+}
+
+.genre {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #c3beba;
+  display: flex;
+  align-items: center;
+}
+
+.genre li:not(:last-child)::after {
+  content: ',';
+  margin-right: 5px;
+}
+
+.title {
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 0.2em;
+  color: var(--accentColor);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.additional {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1667;
+  letter-spacing: 0.03em;
+  text-shadow: var(--textShadow);
+  text-align: center;
+  border-top: 2px solid var(--accentColor);
+  border-bottom: 2px solid var(--accentColor);
+  background-color: #34495e;
+  box-shadow: var(--boxShadow);
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  padding: 12px;
+  font-weight: 800;
+  color: #fff;
+  font-size: 18px;
+}
+
+.link:hover,
+.link:focus {
+  color: #fa7584;
+}
+
+.activeLink {
+  margin-right: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--accentColor);
+}
+
+.btn {
+  height: 47px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: var(--accentColor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  outline: none;
+  opacity: 1;
+  transition: opacity 250ms var(--timingFn);
+  cursor: pointer;
+  border-radius: 4px;
+
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}

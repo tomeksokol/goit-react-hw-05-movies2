@@ -5,7 +5,7 @@ import actorPlaceholder from "../../images/actorPlaceholder.jpg";
 import styles from "./Cast.module.css";
 import { STATUS } from "../../utils/constans";
 import LoaderComponent from "../../components/LoaderComponent/LoaderComponent";
-import ErrorView from "../../components/ErrorComponent/ErrorView.";
+import ErrorView from "../../components/ErrorComponent/ErrorView";
 
 const Cast = () => {
   // const [cast, setCast] = useState([]);
